@@ -72,7 +72,7 @@ public class Controller implements Initializable {
         }
     }
 
-
+    //koneksi
     public void connEvent(javafx.event.ActionEvent actionEvent) throws Exception {
         if(PortName!=null&&BaudRate!=null){
             CommPortIdentifier portIdentifier = CommPortIdentifier.getPortIdentifier(PortName);
